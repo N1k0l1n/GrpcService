@@ -13,7 +13,8 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 
 // Add services to the container.
-builder.Services.AddGrpc();
+builder.Services.AddGrpc().AddJsonTranscoding();
+
 
 var app = builder.Build();
 
