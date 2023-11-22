@@ -24,7 +24,7 @@ rpc DeleteToDo(DeleteToDoRequest) returns (DeleteToDoResponse){}
 }
 
 
-message CreteToDoRequest{
+message CreateToDoRequest{
 	string title = 1;
 	string description = 2;
 }
